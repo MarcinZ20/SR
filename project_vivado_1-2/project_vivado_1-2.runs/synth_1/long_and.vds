@@ -1,0 +1,221 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Mar 20 17:25:43 2024
+# Process ID: 1002867
+# Current directory: /home/marcin-zub/project_vivado_1-2/project_vivado_1-2.runs/synth_1
+# Command line: vivado -log long_and.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source long_and.tcl
+# Log file: /home/marcin-zub/project_vivado_1-2/project_vivado_1-2.runs/synth_1/long_and.vds
+# Journal file: /home/marcin-zub/project_vivado_1-2/project_vivado_1-2.runs/synth_1/vivado.jou
+# Running On: marcin, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 16, Host memory: 33528 MB
+#-----------------------------------------------------------
+source long_and.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/marcin-zub/project_vivado_1-2/project_vivado_1-2.srcs/utils_1/imports/synth_1/delay_line.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/marcin-zub/project_vivado_1-2/project_vivado_1-2.srcs/utils_1/imports/synth_1/delay_line.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top long_and -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Vivado_Tcl 4-1810] synth_design options have changed between reference and incremental; A full resynthesis will be run
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1002885
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1704.090 ; gain = 379.777 ; free physical = 21591 ; free virtual = 27719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'long_and' [/home/marcin-zub/project_vivado_1-2/project_vivado_1-2.srcs/sources_1/new/long_and.v:23]
+WARNING: [Synth 8-324] index 8 out of range [/home/marcin-zub/project_vivado_1-2/project_vivado_1-2.srcs/sources_1/new/long_and.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'long_and' (0#1) [/home/marcin-zub/project_vivado_1-2/project_vivado_1-2.srcs/sources_1/new/long_and.v:23]
+WARNING: [Synth 8-3330] design long_and has an empty top module
+WARNING: [Synth 8-3917] design long_and has port y driven by constant 0
+WARNING: [Synth 8-7129] Port x[7] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[6] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[5] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[4] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[3] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[2] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[1] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[0] in module long_and is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1779.027 ; gain = 454.715 ; free physical = 21496 ; free virtual = 27624
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1796.840 ; gain = 472.527 ; free physical = 21496 ; free virtual = 27624
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1804.844 ; gain = 480.531 ; free physical = 21496 ; free virtual = 27624
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1813.750 ; gain = 489.438 ; free physical = 21495 ; free virtual = 27624
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1813.750 ; gain = 489.438 ; free physical = 21495 ; free virtual = 27624
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1813.750 ; gain = 489.438 ; free physical = 21495 ; free virtual = 27624
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : synth_design options have changed between reference and incremental
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3330] design long_and has an empty top module
+WARNING: [Synth 8-3917] design long_and has port y driven by constant 0
+WARNING: [Synth 8-7129] Port x[7] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[6] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[5] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[4] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[3] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[2] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[1] in module long_and is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[0] in module long_and is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1918.281 ; gain = 593.969 ; free physical = 21385 ; free virtual = 27517
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1918.281 ; gain = 593.969 ; free physical = 21381 ; free virtual = 27513
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1918.281 ; gain = 593.969 ; free physical = 21377 ; free virtual = 27509
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1918.281 ; gain = 593.969 ; free physical = 21377 ; free virtual = 27509
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1918.281 ; gain = 593.969 ; free physical = 21377 ; free virtual = 27509
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1918.281 ; gain = 593.969 ; free physical = 21377 ; free virtual = 27509
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1918.281 ; gain = 593.969 ; free physical = 21377 ; free virtual = 27509
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1918.281 ; gain = 593.969 ; free physical = 21377 ; free virtual = 27509
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1918.281 ; gain = 593.969 ; free physical = 21377 ; free virtual = 27509
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     1|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1918.281 ; gain = 593.969 ; free physical = 21377 ; free virtual = 27509
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1918.281 ; gain = 593.969 ; free physical = 21377 ; free virtual = 27509
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1918.289 ; gain = 593.969 ; free physical = 21377 ; free virtual = 27509
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1924.219 ; gain = 0.000 ; free physical = 21649 ; free virtual = 27781
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2011.844 ; gain = 0.000 ; free physical = 21562 ; free virtual = 27695
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 9eea301e
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2011.879 ; gain = 687.566 ; free physical = 21562 ; free virtual = 27694
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1333.251; main = 1333.251; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 2011.848; main = 2011.848; forked = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2035.855 ; gain = 0.000 ; free physical = 21561 ; free virtual = 27694
+INFO: [Common 17-1381] The checkpoint '/home/marcin-zub/project_vivado_1-2/project_vivado_1-2.runs/synth_1/long_and.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file long_and_utilization_synth.rpt -pb long_and_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 20 17:25:57 2024...

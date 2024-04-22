@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../hdmi_vga_zybo.gen/sources_1/ip/LUT/sim/LUT.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

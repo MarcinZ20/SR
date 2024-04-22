@@ -1,0 +1,1 @@
+add_sub_module.vhd,vhdl,xil_defaultlib,../../../../operacje_logiczne.gen/sources_1/ip/add_sub_module/sim/add_sub_module.vhd,

@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/marcin-zub/project_vivado_1-2/project_vivado_1-2.sim/sim_1/synth/func/xsim/long_and_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module long_and
+INFO: [VRFC 10-311] analyzing module glbl

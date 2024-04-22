@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../../operacje_logiczne.gen/sources_1/ip/multiplier_module/sim/multiplier_module.vhd" \
+
+# Do not sort compile order
+nosort
