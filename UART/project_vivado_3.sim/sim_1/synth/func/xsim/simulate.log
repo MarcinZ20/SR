@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+WARNING: file input_data.bin could not be opened
+Error opening input file
+$finish called at time : 0 fs : File "/home/marcin-zub/Vivado_projects/project_vivado_3/project_vivado_3.srcs/sim_1/new/tb_UART_Transmitter.v" Line 42

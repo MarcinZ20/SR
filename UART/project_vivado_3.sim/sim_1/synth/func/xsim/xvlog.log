@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/marcin-zub/Vivado_projects/project_vivado_3/project_vivado_3.sim/sim_1/synth/func/xsim/tb_UART_Transmitter_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Transmitter
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/marcin-zub/Vivado_projects/project_vivado_3/project_vivado_3.srcs/sim_1/new/tb_UART_Transmitter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_UART_Transmitter

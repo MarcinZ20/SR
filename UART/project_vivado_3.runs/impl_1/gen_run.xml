@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1714997991">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="UART_Transmitter_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="UART_Transmitter_routed.rqs"/>
+  <File Type="PA-TCL" Name="UART_Transmitter.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="UART_Transmitter_bus_skew_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="UART_Transmitter_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="UART_Transmitter_bus_skew_routed.rpx"/>
+  <File Type="INIT-TIMING" Name="UART_Transmitter_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="UART_Transmitter_opt.dcp"/>
+  <File Type="OPT-DRC" Name="UART_Transmitter_drc_opted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="UART_Transmitter_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="UART_Transmitter.hwdef"/>
+  <File Type="OPT-TIMING" Name="UART_Transmitter_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="UART_Transmitter_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="UART_Transmitter_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="UART_Transmitter_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="UART_Transmitter_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="UART_Transmitter_placed.dcp"/>
+  <File Type="PLACE-IO" Name="UART_Transmitter_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="UART_Transmitter_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="UART_Transmitter_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="UART_Transmitter_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="UART_Transmitter_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="UART_Transmitter_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="UART_Transmitter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="UART_Transmitter_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="UART_Transmitter_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="UART_Transmitter_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="UART_Transmitter_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="UART_Transmitter_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="UART_Transmitter_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="UART_Transmitter_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="UART_Transmitter_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="UART_Transmitter_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="UART_Transmitter_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="UART_Transmitter_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="UART_Transmitter_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="UART_Transmitter_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="UART_Transmitter_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="UART_Transmitter_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="UART_Transmitter_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="UART_Transmitter_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="UART_Transmitter_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="UART_Transmitter_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="UART_Transmitter_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="UART_Transmitter_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="UART_Transmitter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="UART_Transmitter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="UART_Transmitter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="UART_Transmitter_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="UART_Transmitter_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="UART_Transmitter_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-RQS-PB" Name="UART_Transmitter_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="UART_Transmitter_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="UART_Transmitter_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="UART_Transmitter_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="UART_Transmitter_timing_summary_postroute_physopted.pb"/>
+  <File Type="RDI-RDI" Name="UART_Transmitter.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="UART_Transmitter_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="UART_Transmitter_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="UART_Transmitter_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="UART_Transmitter_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="UART_Transmitter.bit"/>
+  <File Type="PDI-FILE" Name="UART_Transmitter.pdi"/>
+  <File Type="BG-BIN" Name="UART_Transmitter.bin"/>
+  <File Type="CFI_FILE" Name="UART_Transmitter.cfi"/>
+  <File Type="BITSTR-MSK" Name="UART_Transmitter.msk"/>
+  <File Type="RNPI_FILE" Name="UART_Transmitter.rnpi"/>
+  <File Type="BITSTR-RBT" Name="UART_Transmitter.rbt"/>
+  <File Type="NPI_FILE" Name="UART_Transmitter.npi"/>
+  <File Type="BITSTR-NKY" Name="UART_Transmitter.nky"/>
+  <File Type="RBD_FILE" Name="UART_Transmitter.rbd"/>
+  <File Type="BITSTR-BMM" Name="UART_Transmitter_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="UART_Transmitter.mmi"/>
+  <File Type="BOOT-PDI-FILE" Name="UART_Transmitter_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="UART_Transmitter_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="UART_Transmitter.rcfi"/>
+  <File Type="BG-BGN" Name="UART_Transmitter.bgn"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="UART_Transmitter.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="UART_Transmitter.sysdef"/>
+  <File Type="BG-DRC" Name="UART_Transmitter.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/state_machine.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="UART_Transmitter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

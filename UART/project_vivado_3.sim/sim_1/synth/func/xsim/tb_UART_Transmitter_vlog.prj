@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_UART_Transmitter_func_synth.v" \
+"../../../../../project_vivado_3.srcs/sim_1/new/tb_UART_Transmitter.v" \
+
+# Do not sort compile order
+nosort
